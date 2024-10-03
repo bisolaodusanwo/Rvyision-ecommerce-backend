@@ -1,5 +1,5 @@
 UNDERSTANDING THE PORBLEM -:
-The challenge was to build a backend for amid-sized e-commerce platorm. the platform should handle a large number of products and transactions efficiently while ensuring a smooth user experience. To do this, i focused on creating a reliable, scalable API using Node.js and MongoDB.
+The challenge was to build a backend for amid-sized e-commerce platorm. the platform should handle a large number of products and transactions efficiently while ensuring a smooth user experience. To do this, i focused on creating a reliable, scalable API using Node.js MongoDB and Redis. The redis is used to catch data to make the system faster and efficient.
 
 This backend includes the ability to :
 Search products by name using a GET request.
@@ -10,6 +10,9 @@ I aimed to keep the solution straightforward, focusing on core features while en
 
 ---
 
+NOTE:
+Please make sure to install Redis on your computer and start the Redis server .
+
 Documentation
 Installed Packages-:
 
@@ -18,6 +21,7 @@ Installed Packages-:
 3. CORS
 4. Dotenv
 5. Nodemon
+6. Redis
 
 Testing:
 I made use of POSTMAN for CRUD Operaton

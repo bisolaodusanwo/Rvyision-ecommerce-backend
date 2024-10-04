@@ -25,7 +25,11 @@ const productSchema = new mongoose.Schema(
   },
   {
 <<<<<<< HEAD
+<<<<<<< HEAD
     timestamps: true,
+=======
+    timestamps: true, //It will adds two new fields in the schema createdAt and updatedAt, it will store the date and time of the creation and last update of the document.
+>>>>>>> 6a6920294cefc412ef2fa1611d62475d630c4706
 =======
     timestamps: true, //It will adds two new fields in the schema createdAt and updatedAt, it will store the date and time of the creation and last update of the document.
 >>>>>>> 6a6920294cefc412ef2fa1611d62475d630c4706

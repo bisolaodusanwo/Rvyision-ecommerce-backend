@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import redis from 'redis';
 import dotenv from 'dotenv';
 
@@ -11,6 +12,8 @@ console.log("Connecting to Redis at:", redisUrl);
 const redisClient = redis.createClient({
   url: redisUrl,
 =======
+=======
+>>>>>>> 6a6920294cefc412ef2fa1611d62475d630c4706
 import redis from "redis";
 import dotenv from "dotenv";
 dotenv.config(); // Load environment variables
@@ -19,6 +22,9 @@ const redisClient = redis.createClient({
   url: `redis://${process.env.REDIS_HOST || "127.0.0.1"}:${
     process.env.REDIS_PORT || 6379
   }`,
+<<<<<<< HEAD
+>>>>>>> 6a6920294cefc412ef2fa1611d62475d630c4706
+=======
 >>>>>>> 6a6920294cefc412ef2fa1611d62475d630c4706
 });
 

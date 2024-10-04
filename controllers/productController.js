@@ -5,6 +5,7 @@ export const searchProducts = async (req, res) => {
   const query = req.query.q;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   try {
     if (!query) {
       const allProducts = await Product.find();
@@ -14,6 +15,8 @@ export const searchProducts = async (req, res) => {
     const cachedProducts = await redisClient.get(`searchProducts:${query}`);
     
 =======
+=======
+>>>>>>> 6a6920294cefc412ef2fa1611d62475d630c4706
   if (!query) {
     return res.status(400).json({ message: "Please provide a search query" });
   }
@@ -22,6 +25,9 @@ export const searchProducts = async (req, res) => {
     //fetch from redis
     const cachedProducts = await redisClient.get(`searchProducts:${query}`);
 
+<<<<<<< HEAD
+>>>>>>> 6a6920294cefc412ef2fa1611d62475d630c4706
+=======
 >>>>>>> 6a6920294cefc412ef2fa1611d62475d630c4706
     if (cachedProducts) {
       return res.status(200).json(JSON.parse(cachedProducts));
@@ -87,7 +93,10 @@ export const createProduct = async (req, res) => {
         .json({ message: `Product with name "${name}" already exists.` });
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6a6920294cefc412ef2fa1611d62475d630c4706
 =======
 >>>>>>> 6a6920294cefc412ef2fa1611d62475d630c4706
     const product = new Product({
